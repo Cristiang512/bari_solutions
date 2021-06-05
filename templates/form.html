@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{{url_for('data')}}" method="post">
+        <label for="id">Enter your Id: </label>
+        <input type="text" id="id" name="id" /><br>
+        <label for="date">Enter your date of birht: </label>
+        <input type="date" id="date" name="date" max=""/><br>
+        <input type="submit" id="send-signup" name="signup" value="Calculate days" />
+</form>
+</body>
+</html>
+

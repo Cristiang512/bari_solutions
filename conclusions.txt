@@ -1,0 +1,6 @@
+# 1. Escogí como framework flask ya que es el mas sencillo para realizar este tipo de app web
+# 2. tuve inconvenientes al momento de crear las rutas de las respectivas vistas, ya que no habia importado render_template
+# 3. tuve incovenientes con los formatos de la fecha, ya que estaba un poco confundido, pero en python todo es mas sencillo
+# 3. python como lenguaje de programacion es muy completo y fuy simple de usar.
+#  muchas funciones en python requieren de solo una linea de código, en cambio otros lenguajes se extiende demasiado y es mucho mas complejo.
+# 4.en general, me sentí bien tanto con el lenguaje y el marco de trabajo. los inconvenientes nunca faltaron, pero se logró el objetivo.
