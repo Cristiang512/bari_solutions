@@ -2,14 +2,27 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type= "text/css" href="{{ url_for('static', filename='styles/style.css') }}"   >
+        <title>Form</title>
     </head>
     <body>
-        <strong>Id: </strong>{{id}}
+    <section class="form-register">
+        <h4>Form Register</h4>
+        <label>Id:</label>
+        <input class="controls" value="{{id}}"/><br>
+<!--        <strong>Id: </strong>{{id}}-->
         <br>
-        <strong>Date of Birht: </strong>{{date}}
+        <label >Date of Birht: </label>
+        <input class="controls" value="{{date}}"/><br>
+<!--        <strong>Date of Birht: </strong>{{date}}-->
         <br>
-        <strong>Days lived: </strong>{{message}}
+        <label >Days lived: </label>
+        <br>
+        <textarea >{{message}}</textarea>
+<!--        <strong>Days lived: </strong>{{message}}-->
+    </section>
     </body>
 </html>
 
